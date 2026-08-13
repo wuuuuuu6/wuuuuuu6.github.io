@@ -1,0 +1,16 @@
+{
+  "url": "https://api.github.com/repos/wuuuuuu6/wuuuuuu6.github.io/pages",
+  "status": "built",
+  "cname": null,
+  "custom_404": false,
+  "html_url": "https://wuuuuuu6.github.io/",
+  "build_type": "legacy",
+  "source": {
+    "branch": "main",
+    "path": "/"
+  },
+  "public": true,
+  "protected_domain_state": null,
+  "pending_domain_unverified_at": null,
+  "https_enforced": true
+}
