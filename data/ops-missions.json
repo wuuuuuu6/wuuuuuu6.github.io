@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-09-23T09:35:00+08:00",
+  "generated_at": "2026-09-30T05:03:39.495Z",
   "missions": [
     {
       "task_id": "fx_gold",
-      "name": "黄金异动监控",
+      "name": "黄金与汇率异动",
       "emoji": "💰",
-      "cron_desc": "工作日 09:00–23:00，每 30 分钟",
+      "cron_desc": "每日 08:50（GitHub Actions 定时采集）",
       "enabled": true,
       "last_status": "success",
-      "last_run_at": "2026-09-23T09:30:00+08:00",
-      "next_run_at": "2026-09-23T10:00:00+08:00",
-      "success_rate_7d": 96,
+      "last_run_at": "2026-09-30T05:03:39.495Z",
+      "next_run_at": "2026-10-01T00:50:00.000Z",
+      "success_rate_7d": 100,
       "consecutive_failures": 0
     },
     {
       "task_id": "macro_daily",
-      "name": "宏观日报",
+      "name": "人民币汇率晨报",
       "emoji": "📊",
-      "cron_desc": "每日 08:30",
+      "cron_desc": "每日 08:50（GitHub Actions 定时采集）",
       "enabled": true,
       "last_status": "success",
-      "last_run_at": "2026-09-23T08:30:00+08:00",
-      "next_run_at": "2026-09-24T08:30:00+08:00",
+      "last_run_at": "2026-09-30T05:03:39.495Z",
+      "next_run_at": "2026-10-01T00:50:00.000Z",
       "success_rate_7d": 100,
       "consecutive_failures": 0
     },
@@ -29,25 +29,25 @@
       "task_id": "policy_daily",
       "name": "政策快讯",
       "emoji": "🏛️",
-      "cron_desc": "每日 09:15 / 20:00",
+      "cron_desc": "每日 08:50（数据源待接入，可接 Coze 工作流）",
       "enabled": true,
       "last_status": "success",
-      "last_run_at": "2026-09-23T09:15:00+08:00",
-      "next_run_at": "2026-09-23T20:00:00+08:00",
-      "success_rate_7d": 83,
-      "consecutive_failures": 1
+      "last_run_at": "2026-09-30T05:03:39.495Z",
+      "next_run_at": "2026-10-01T00:50:00.000Z",
+      "success_rate_7d": 100,
+      "consecutive_failures": 0
     },
     {
       "task_id": "housing_weekly",
       "name": "楼市周报",
       "emoji": "🏠",
-      "cron_desc": "每周一 08:00",
+      "cron_desc": "每周一 08:50（数据源待接入）",
       "enabled": true,
-      "last_status": "failed",
-      "last_run_at": "2026-09-23T08:00:00+08:00",
-      "next_run_at": "2026-09-30T08:00:00+08:00",
-      "success_rate_7d": 57,
-      "consecutive_failures": 2
+      "last_status": "success",
+      "last_run_at": null,
+      "next_run_at": "2026-10-05T00:50:00.000Z",
+      "success_rate_7d": 100,
+      "consecutive_failures": 0
     }
   ]
 }

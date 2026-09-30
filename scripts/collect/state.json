@@ -1,0 +1,39 @@
+{
+  "tasks": {
+    "fx_gold": {
+      "runs": [
+        {
+          "date": "2026-09-30",
+          "status": "success"
+        }
+      ],
+      "lastRunAt": "2026-09-30T05:03:39.495Z",
+      "lastStatus": "success"
+    },
+    "macro_daily": {
+      "runs": [
+        {
+          "date": "2026-09-30",
+          "status": "success"
+        }
+      ],
+      "lastRunAt": "2026-09-30T05:03:39.495Z",
+      "lastStatus": "success"
+    },
+    "policy_daily": {
+      "runs": [
+        {
+          "date": "2026-09-30",
+          "status": "success"
+        }
+      ],
+      "lastRunAt": "2026-09-30T05:03:39.495Z",
+      "lastStatus": "success"
+    },
+    "housing_weekly": {
+      "runs": [],
+      "lastRunAt": null,
+      "lastStatus": "success"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+name: ops-data
+
+# 自动化数据定时采集：生成 data/ops-feed.json 与 data/ops-missions.json
+# 并直接提交到本仓库（= GitHub Pages 站点根），站点自动更新，无需本地构建。
+on:
+  schedule:
+    - cron: '50 0 * * *' # 北京时间每日 08:50（UTC 00:50；Actions 实际触发可能有 ±15 分钟延迟）
+  workflow_dispatch: {} # 支持在 Actions 页面手动触发
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ops-data
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: 采集并生成快照
+        run: node scripts/collect/collect.mjs
+
+      - name: 有变更才提交推送
+        run: |
+          git config user.name "ops-bot"
+          git config user.email "ops-bot@users.noreply.github.com"
+          git add data/ops-feed.json data/ops-missions.json scripts/collect/state.json
+          if git diff --cached --quiet; then
+            echo "数据无变化，跳过提交"
+          else
+            git commit -m "chore(ops): 更新自动化数据 $(date -u +%F)"
+            git push
+          fi
