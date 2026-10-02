@@ -1,6 +1,95 @@
 {
-  "generated_at": "2026-10-01T06:34:24.541Z",
+  "generated_at": "2026-10-02T06:15:08.078Z",
   "feed": [
+    {
+      "entry_id": "fx_gold-202610021415",
+      "run_id": "run-202610021415",
+      "task_id": "fx_gold",
+      "level": "routine",
+      "status": "partial",
+      "title": "美元兑人民币报 6.7045（金价源暂缺）",
+      "summary": "金价与汇率源均未返回有效数据，请检查数据源或稍后重跑。",
+      "indicators": [
+        {
+          "code": "USD_CNY",
+          "name": "美元兑人民币",
+          "value": 6.7045,
+          "unit": "",
+          "chg_pct": 0,
+          "alert": false
+        }
+      ],
+      "missing": [
+        {
+          "code": "XAU_USD",
+          "reason": "金价源不可达（Yahoo/CoinGecko 均失败）"
+        }
+      ],
+      "created_at": "2026-10-02T06:15:08.078Z",
+      "read": false,
+      "starred": false
+    },
+    {
+      "entry_id": "macro_daily-202610021415",
+      "run_id": "run-202610021415",
+      "task_id": "macro_daily",
+      "level": "routine",
+      "status": "full",
+      "title": "人民币汇率晨报：1 美元 = 6.7047 元",
+      "summary": "数据源：Frankfurter（ECB 参考汇率，2026-10-01 交易日）。人民币汇率中长线观察用，非实时牌价。",
+      "indicators": [
+        {
+          "code": "USD_CNY",
+          "name": "美元兑人民币",
+          "value": 6.7047,
+          "unit": "",
+          "chg_pct": 0,
+          "alert": false
+        },
+        {
+          "code": "HKD_CNY",
+          "name": "港元兑人民币",
+          "value": 0.8544,
+          "unit": "",
+          "chg_pct": 0,
+          "alert": false
+        },
+        {
+          "code": "JPY_CNY",
+          "name": "100 日元兑人民币",
+          "value": 4.24,
+          "unit": "",
+          "chg_pct": 0,
+          "alert": false
+        },
+        {
+          "code": "EUR_CNY",
+          "name": "欧元兑人民币",
+          "value": 7.5746,
+          "unit": "",
+          "chg_pct": 0,
+          "alert": false
+        }
+      ],
+      "missing": [],
+      "created_at": "2026-10-02T06:15:08.078Z",
+      "read": false,
+      "starred": false
+    },
+    {
+      "entry_id": "policy_daily-202610021415",
+      "run_id": "run-202610021415",
+      "task_id": "policy_daily",
+      "level": "routine",
+      "status": "skipped",
+      "title": "政策快讯：数据源待接入（可接 Coze 工作流或政策 RSS）",
+      "summary": "",
+      "indicators": [],
+      "missing": [],
+      "created_at": "2026-10-02T06:15:08.078Z",
+      "read": false,
+      "starred": false
+    },
     {
       "entry_id": "fx_gold-202610011434",
       "run_id": "run-202610011434",
@@ -359,52 +448,6 @@
       ],
       "created_at": "2026-09-23T08:00:00+08:00",
       "read": false,
-      "starred": false
-    },
-    {
-      "entry_id": "macro_daily-20260922-0830-r1",
-      "run_id": "run-20260922-0830",
-      "task_id": "macro_daily",
-      "level": "routine",
-      "status": "full",
-      "title": "央行开展 2000 亿元逆回购，净投放 800 亿元",
-      "summary": "跨季资金面平稳，DR007 加权均价围绕政策利率波动。",
-      "indicators": [
-        {
-          "code": "OMO_7D",
-          "name": "7天逆回购",
-          "value": 2000,
-          "unit": "亿元",
-          "chg_pct": 0,
-          "alert": false
-        }
-      ],
-      "missing": [],
-      "created_at": "2026-09-22T08:30:00+08:00",
-      "read": true,
-      "starred": false
-    },
-    {
-      "entry_id": "housing_weekly-20260922-0810-f1",
-      "run_id": "run-20260922-0800",
-      "task_id": "housing_weekly",
-      "level": "routine",
-      "status": "full",
-      "title": "百城二手住宅均价环比跌幅连续两周收窄",
-      "summary": "一线城市挂牌量回升，议价空间缩小；关注金九银十成色。",
-      "indicators": [
-        {
-          "code": "HZ_100",
-          "name": "百城二手均价",
-          "value": 16120,
-          "unit": "元/㎡",
-          "chg_pct": -0.15,
-          "alert": false
-        }
-      ],
-      "missing": [],
-      "created_at": "2026-09-22T08:10:00+08:00",
-      "read": true,
       "starred": false
     }
   ]
