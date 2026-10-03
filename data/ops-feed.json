@@ -1,6 +1,95 @@
 {
-  "generated_at": "2026-10-02T06:15:08.078Z",
+  "generated_at": "2026-10-03T05:46:30.139Z",
   "feed": [
+    {
+      "entry_id": "fx_gold-202610031346",
+      "run_id": "run-202610031346",
+      "task_id": "fx_gold",
+      "level": "routine",
+      "status": "partial",
+      "title": "美元兑人民币报 6.7046（金价源暂缺）",
+      "summary": "金价与汇率源均未返回有效数据，请检查数据源或稍后重跑。",
+      "indicators": [
+        {
+          "code": "USD_CNY",
+          "name": "美元兑人民币",
+          "value": 6.7046,
+          "unit": "",
+          "chg_pct": 0,
+          "alert": false
+        }
+      ],
+      "missing": [
+        {
+          "code": "XAU_USD",
+          "reason": "金价源不可达（Yahoo/CoinGecko 均失败）"
+        }
+      ],
+      "created_at": "2026-10-03T05:46:30.139Z",
+      "read": false,
+      "starred": false
+    },
+    {
+      "entry_id": "macro_daily-202610031346",
+      "run_id": "run-202610031346",
+      "task_id": "macro_daily",
+      "level": "routine",
+      "status": "full",
+      "title": "人民币汇率晨报：1 美元 = 6.7047 元",
+      "summary": "数据源：Frankfurter（ECB 参考汇率，2026-10-02 交易日）。人民币汇率中长线观察用，非实时牌价。",
+      "indicators": [
+        {
+          "code": "USD_CNY",
+          "name": "美元兑人民币",
+          "value": 6.7047,
+          "unit": "",
+          "chg_pct": 0,
+          "alert": false
+        },
+        {
+          "code": "HKD_CNY",
+          "name": "港元兑人民币",
+          "value": 0.8544,
+          "unit": "",
+          "chg_pct": 0,
+          "alert": false
+        },
+        {
+          "code": "JPY_CNY",
+          "name": "100 日元兑人民币",
+          "value": 4.25,
+          "unit": "",
+          "chg_pct": 0,
+          "alert": false
+        },
+        {
+          "code": "EUR_CNY",
+          "name": "欧元兑人民币",
+          "value": 7.5262,
+          "unit": "",
+          "chg_pct": 0,
+          "alert": false
+        }
+      ],
+      "missing": [],
+      "created_at": "2026-10-03T05:46:30.139Z",
+      "read": false,
+      "starred": false
+    },
+    {
+      "entry_id": "policy_daily-202610031346",
+      "run_id": "run-202610031346",
+      "task_id": "policy_daily",
+      "level": "routine",
+      "status": "skipped",
+      "title": "政策快讯：数据源待接入（可接 Coze 工作流或政策 RSS）",
+      "summary": "",
+      "indicators": [],
+      "missing": [],
+      "created_at": "2026-10-03T05:46:30.139Z",
+      "read": false,
+      "starred": false
+    },
     {
       "entry_id": "fx_gold-202610021415",
       "run_id": "run-202610021415",
@@ -265,188 +354,6 @@
       "indicators": [],
       "missing": [],
       "created_at": "2026-09-30T05:03:39.495Z",
-      "read": false,
-      "starred": false
-    },
-    {
-      "entry_id": "fx_gold-20260923-0932-a1",
-      "run_id": "run-20260923-0930",
-      "task_id": "fx_gold",
-      "level": "alert",
-      "status": "full",
-      "title": "伦敦金现升破 2620 美元/盎司，日内涨逾 1.2%",
-      "summary": "避险需求升温叠加美元走弱，金价突破前高；沪金主力同步跟涨，关注 2630 一线压力。",
-      "indicators": [
-        {
-          "code": "XAU_USD",
-          "name": "伦敦金现",
-          "value": 2621.4,
-          "unit": "美元/盎司",
-          "chg_pct": 1.24,
-          "alert": true
-        },
-        {
-          "code": "AU_MAIN",
-          "name": "沪金主力",
-          "value": 612.8,
-          "unit": "元/克",
-          "chg_pct": 0.86,
-          "alert": false
-        }
-      ],
-      "missing": [],
-      "created_at": "2026-09-23T09:32:00+08:00",
-      "read": false,
-      "starred": true
-    },
-    {
-      "entry_id": "policy_daily-20260923-0915-a1",
-      "run_id": "run-20260923-0915",
-      "task_id": "policy_daily",
-      "level": "alert",
-      "status": "full",
-      "title": "两部门印发城市更新专项行动方案",
-      "summary": "方案明确城中村改造与既有建筑更新重点任务，或带动建材与工程链条需求。",
-      "indicators": [],
-      "missing": [],
-      "created_at": "2026-09-23T09:15:00+08:00",
-      "read": false,
-      "starred": false
-    },
-    {
-      "entry_id": "policy_daily-20260923-0915-s1",
-      "run_id": "run-20260923-0915",
-      "task_id": "policy_daily",
-      "level": "routine",
-      "status": "skipped",
-      "title": "政策扫描：无新增条目（晨间批次）",
-      "summary": "",
-      "indicators": [],
-      "missing": [],
-      "created_at": "2026-09-23T09:15:00+08:00",
-      "read": true,
-      "starred": false
-    },
-    {
-      "entry_id": "policy_daily-20260923-0915-s2",
-      "run_id": "run-20260923-0915",
-      "task_id": "policy_daily",
-      "level": "routine",
-      "status": "skipped",
-      "title": "政策扫描：无新增条目（部委网站）",
-      "summary": "",
-      "indicators": [],
-      "missing": [],
-      "created_at": "2026-09-23T09:15:00+08:00",
-      "read": true,
-      "starred": false
-    },
-    {
-      "entry_id": "fx_gold-20260923-0902-r1",
-      "run_id": "run-20260923-0900",
-      "task_id": "fx_gold",
-      "level": "routine",
-      "status": "full",
-      "title": "贵金属窄幅震荡，等待美盘指引",
-      "summary": "亚盘时段波动有限，各品种涨跌幅均小于 0.3%。",
-      "indicators": [
-        {
-          "code": "XAU_USD",
-          "name": "伦敦金现",
-          "value": 2591.2,
-          "unit": "美元/盎司",
-          "chg_pct": 0.12,
-          "alert": false
-        },
-        {
-          "code": "XAG_USD",
-          "name": "伦敦银现",
-          "value": 31.05,
-          "unit": "美元/盎司",
-          "chg_pct": -0.21,
-          "alert": false
-        }
-      ],
-      "missing": [],
-      "created_at": "2026-09-23T09:02:00+08:00",
-      "read": false,
-      "starred": false
-    },
-    {
-      "entry_id": "macro_daily-20260923-0836-p1",
-      "run_id": "run-20260923-0830",
-      "task_id": "macro_daily",
-      "level": "routine",
-      "status": "partial",
-      "title": "宏观数据快照：部分指标源未返回",
-      "summary": "常规宏观数据抓取完成，但制造业 PMI 分项数据源超时。",
-      "indicators": [
-        {
-          "code": "CNY_USD",
-          "name": "人民币汇率",
-          "value": 7.08,
-          "unit": "",
-          "chg_pct": -0.08,
-          "alert": false
-        }
-      ],
-      "missing": [
-        {
-          "code": "PMI",
-          "reason": "数据源未返回"
-        }
-      ],
-      "created_at": "2026-09-23T08:36:00+08:00",
-      "read": false,
-      "starred": false
-    },
-    {
-      "entry_id": "macro_daily-20260923-0835-f1",
-      "run_id": "run-20260923-0830",
-      "task_id": "macro_daily",
-      "level": "routine",
-      "status": "full",
-      "title": "9 月 LPR 报价维持不变，1 年期报 3.0%",
-      "summary": "本月 LPR 连续第五个月按兵不动，市场聚焦后续降准窗口。",
-      "indicators": [
-        {
-          "code": "LPR_1Y",
-          "name": "LPR 1年期",
-          "value": 3,
-          "unit": "%",
-          "chg_pct": 0,
-          "alert": false
-        },
-        {
-          "code": "LPR_5Y",
-          "name": "LPR 5年期",
-          "value": 3.5,
-          "unit": "%",
-          "chg_pct": 0,
-          "alert": false
-        }
-      ],
-      "missing": [],
-      "created_at": "2026-09-23T08:35:00+08:00",
-      "read": false,
-      "starred": false
-    },
-    {
-      "entry_id": "housing_weekly-20260923-0800-x1",
-      "run_id": "run-20260923-0800",
-      "task_id": "housing_weekly",
-      "level": "routine",
-      "status": "failed",
-      "title": "本周楼市数据抓取失败：目标站点校验升级",
-      "summary": "数据源新增反爬校验，待自动化侧更新抓取策略后重试。",
-      "indicators": [],
-      "missing": [
-        {
-          "code": "CITY_WEEKLY",
-          "reason": "抓取被拦截"
-        }
-      ],
-      "created_at": "2026-09-23T08:00:00+08:00",
       "read": false,
       "starred": false
     }
