@@ -1,6 +1,95 @@
 {
-  "generated_at": "2026-10-03T05:46:30.139Z",
+  "generated_at": "2026-10-04T06:22:30.523Z",
   "feed": [
+    {
+      "entry_id": "fx_gold-202610041422",
+      "run_id": "run-202610041422",
+      "task_id": "fx_gold",
+      "level": "routine",
+      "status": "partial",
+      "title": "美元兑人民币报 6.7046（金价源暂缺）",
+      "summary": "金价与汇率源均未返回有效数据，请检查数据源或稍后重跑。",
+      "indicators": [
+        {
+          "code": "USD_CNY",
+          "name": "美元兑人民币",
+          "value": 6.7046,
+          "unit": "",
+          "chg_pct": 0,
+          "alert": false
+        }
+      ],
+      "missing": [
+        {
+          "code": "XAU_USD",
+          "reason": "金价源不可达（Yahoo/CoinGecko 均失败）"
+        }
+      ],
+      "created_at": "2026-10-04T06:22:30.523Z",
+      "read": false,
+      "starred": false
+    },
+    {
+      "entry_id": "macro_daily-202610041422",
+      "run_id": "run-202610041422",
+      "task_id": "macro_daily",
+      "level": "routine",
+      "status": "full",
+      "title": "人民币汇率晨报：1 美元 = 6.7047 元",
+      "summary": "数据源：Frankfurter（ECB 参考汇率，2026-10-02 交易日）。人民币汇率中长线观察用，非实时牌价。",
+      "indicators": [
+        {
+          "code": "USD_CNY",
+          "name": "美元兑人民币",
+          "value": 6.7047,
+          "unit": "",
+          "chg_pct": 0,
+          "alert": false
+        },
+        {
+          "code": "HKD_CNY",
+          "name": "港元兑人民币",
+          "value": 0.8544,
+          "unit": "",
+          "chg_pct": 0,
+          "alert": false
+        },
+        {
+          "code": "JPY_CNY",
+          "name": "100 日元兑人民币",
+          "value": 4.25,
+          "unit": "",
+          "chg_pct": 0,
+          "alert": false
+        },
+        {
+          "code": "EUR_CNY",
+          "name": "欧元兑人民币",
+          "value": 7.5262,
+          "unit": "",
+          "chg_pct": 0,
+          "alert": false
+        }
+      ],
+      "missing": [],
+      "created_at": "2026-10-04T06:22:30.523Z",
+      "read": false,
+      "starred": false
+    },
+    {
+      "entry_id": "policy_daily-202610041422",
+      "run_id": "run-202610041422",
+      "task_id": "policy_daily",
+      "level": "routine",
+      "status": "skipped",
+      "title": "政策快讯：数据源待接入（可接 Coze 工作流或政策 RSS）",
+      "summary": "",
+      "indicators": [],
+      "missing": [],
+      "created_at": "2026-10-04T06:22:30.523Z",
+      "read": false,
+      "starred": false
+    },
     {
       "entry_id": "fx_gold-202610031346",
       "run_id": "run-202610031346",
