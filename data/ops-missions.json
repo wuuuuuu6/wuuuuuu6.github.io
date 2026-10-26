@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T05:21:14.173Z",
+  "generated_at": "2026-10-26T05:20:59.420Z",
   "missions": [
     {
       "task_id": "fx_gold",
@@ -8,8 +8,8 @@
       "cron_desc": "每日 08:50（GitHub Actions 定时采集）",
       "enabled": true,
       "last_status": "success",
-      "last_run_at": "2026-10-25T05:21:14.173Z",
-      "next_run_at": "2026-10-26T00:50:00.000Z",
+      "last_run_at": "2026-10-26T05:20:59.420Z",
+      "next_run_at": "2026-10-27T00:50:00.000Z",
       "success_rate_7d": 100,
       "consecutive_failures": 0
     },
@@ -20,8 +20,8 @@
       "cron_desc": "每日 08:50（GitHub Actions 定时采集）",
       "enabled": true,
       "last_status": "success",
-      "last_run_at": "2026-10-25T05:21:14.173Z",
-      "next_run_at": "2026-10-26T00:50:00.000Z",
+      "last_run_at": "2026-10-26T05:20:59.420Z",
+      "next_run_at": "2026-10-27T00:50:00.000Z",
       "success_rate_7d": 100,
       "consecutive_failures": 0
     },
@@ -32,8 +32,8 @@
       "cron_desc": "每日 08:50（数据源待接入，可接 Coze 工作流）",
       "enabled": true,
       "last_status": "success",
-      "last_run_at": "2026-10-25T05:21:14.173Z",
-      "next_run_at": "2026-10-26T00:50:00.000Z",
+      "last_run_at": "2026-10-26T05:20:59.420Z",
+      "next_run_at": "2026-10-27T00:50:00.000Z",
       "success_rate_7d": 100,
       "consecutive_failures": 0
     },
@@ -44,8 +44,8 @@
       "cron_desc": "每周一 08:50（数据源待接入）",
       "enabled": true,
       "last_status": "success",
-      "last_run_at": "2026-10-19T05:21:26.106Z",
-      "next_run_at": "2026-10-26T00:50:00.000Z",
+      "last_run_at": "2026-10-26T05:20:59.420Z",
+      "next_run_at": "2026-11-02T00:50:00.000Z",
       "success_rate_7d": 100,
       "consecutive_failures": 0
     }
