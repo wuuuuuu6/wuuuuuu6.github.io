@@ -125,9 +125,13 @@
         {
           "date": "2026-10-30",
           "status": "success"
+        },
+        {
+          "date": "2026-10-31",
+          "status": "success"
         }
       ],
-      "lastRunAt": "2026-10-30T06:29:28.596Z",
+      "lastRunAt": "2026-10-31T06:19:43.587Z",
       "lastStatus": "success"
     },
     "macro_daily": {
@@ -255,9 +259,13 @@
         {
           "date": "2026-10-30",
           "status": "success"
+        },
+        {
+          "date": "2026-10-31",
+          "status": "success"
         }
       ],
-      "lastRunAt": "2026-10-30T06:29:28.596Z",
+      "lastRunAt": "2026-10-31T06:19:43.587Z",
       "lastStatus": "success"
     },
     "policy_daily": {
@@ -385,9 +393,13 @@
         {
           "date": "2026-10-30",
           "status": "success"
+        },
+        {
+          "date": "2026-10-31",
+          "status": "success"
         }
       ],
-      "lastRunAt": "2026-10-30T06:29:28.596Z",
+      "lastRunAt": "2026-10-31T06:19:43.587Z",
       "lastStatus": "success"
     },
     "housing_weekly": {
