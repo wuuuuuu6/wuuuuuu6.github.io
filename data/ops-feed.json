@@ -1,6 +1,95 @@
 {
-  "generated_at": "2026-11-10T07:45:49.211Z",
+  "generated_at": "2026-11-11T07:10:44.229Z",
   "feed": [
+    {
+      "entry_id": "fx_gold-202611111510",
+      "run_id": "run-202611111510",
+      "task_id": "fx_gold",
+      "level": "routine",
+      "status": "partial",
+      "title": "美元兑人民币报 6.6703（金价源暂缺）",
+      "summary": "金价与汇率源均未返回有效数据，请检查数据源或稍后重跑。",
+      "indicators": [
+        {
+          "code": "USD_CNY",
+          "name": "美元兑人民币",
+          "value": 6.6703,
+          "unit": "",
+          "chg_pct": 0,
+          "alert": false
+        }
+      ],
+      "missing": [
+        {
+          "code": "XAU_USD",
+          "reason": "金价源不可达（Yahoo/CoinGecko 均失败）"
+        }
+      ],
+      "created_at": "2026-11-11T07:10:44.229Z",
+      "read": false,
+      "starred": false
+    },
+    {
+      "entry_id": "macro_daily-202611111510",
+      "run_id": "run-202611111510",
+      "task_id": "macro_daily",
+      "level": "routine",
+      "status": "full",
+      "title": "人民币汇率晨报：1 美元 = 6.6702 元",
+      "summary": "数据源：Frankfurter（ECB 参考汇率，2026-11-10 交易日）。人民币汇率中长线观察用，非实时牌价。",
+      "indicators": [
+        {
+          "code": "USD_CNY",
+          "name": "美元兑人民币",
+          "value": 6.6702,
+          "unit": "",
+          "chg_pct": 0,
+          "alert": false
+        },
+        {
+          "code": "HKD_CNY",
+          "name": "港元兑人民币",
+          "value": 0.8503,
+          "unit": "",
+          "chg_pct": 0,
+          "alert": false
+        },
+        {
+          "code": "JPY_CNY",
+          "name": "100 日元兑人民币",
+          "value": 4.22,
+          "unit": "",
+          "chg_pct": 0,
+          "alert": false
+        },
+        {
+          "code": "EUR_CNY",
+          "name": "欧元兑人民币",
+          "value": 7.48,
+          "unit": "",
+          "chg_pct": 0,
+          "alert": false
+        }
+      ],
+      "missing": [],
+      "created_at": "2026-11-11T07:10:44.229Z",
+      "read": false,
+      "starred": false
+    },
+    {
+      "entry_id": "policy_daily-202611111510",
+      "run_id": "run-202611111510",
+      "task_id": "policy_daily",
+      "level": "routine",
+      "status": "skipped",
+      "title": "政策快讯：数据源待接入（可接 Coze 工作流或政策 RSS）",
+      "summary": "",
+      "indicators": [],
+      "missing": [],
+      "created_at": "2026-11-11T07:10:44.229Z",
+      "read": false,
+      "starred": false
+    },
     {
       "entry_id": "fx_gold-202611101545",
       "run_id": "run-202611101545",
@@ -827,95 +916,6 @@
       "indicators": [],
       "missing": [],
       "created_at": "2026-11-02T06:52:09.314Z",
-      "read": false,
-      "starred": false
-    },
-    {
-      "entry_id": "fx_gold-202611011453",
-      "run_id": "run-202611011453",
-      "task_id": "fx_gold",
-      "level": "routine",
-      "status": "partial",
-      "title": "美元兑人民币报 6.6529（金价源暂缺）",
-      "summary": "金价与汇率源均未返回有效数据，请检查数据源或稍后重跑。",
-      "indicators": [
-        {
-          "code": "USD_CNY",
-          "name": "美元兑人民币",
-          "value": 6.6529,
-          "unit": "",
-          "chg_pct": 0,
-          "alert": false
-        }
-      ],
-      "missing": [
-        {
-          "code": "XAU_USD",
-          "reason": "金价源不可达（Yahoo/CoinGecko 均失败）"
-        }
-      ],
-      "created_at": "2026-11-01T06:53:04.646Z",
-      "read": false,
-      "starred": false
-    },
-    {
-      "entry_id": "macro_daily-202611011453",
-      "run_id": "run-202611011453",
-      "task_id": "macro_daily",
-      "level": "routine",
-      "status": "full",
-      "title": "人民币汇率晨报：1 美元 = 6.6529 元",
-      "summary": "数据源：Frankfurter（ECB 参考汇率，2026-10-30 交易日）。人民币汇率中长线观察用，非实时牌价。",
-      "indicators": [
-        {
-          "code": "USD_CNY",
-          "name": "美元兑人民币",
-          "value": 6.6529,
-          "unit": "",
-          "chg_pct": 0,
-          "alert": false
-        },
-        {
-          "code": "HKD_CNY",
-          "name": "港元兑人民币",
-          "value": 0.848,
-          "unit": "",
-          "chg_pct": 0,
-          "alert": false
-        },
-        {
-          "code": "JPY_CNY",
-          "name": "100 日元兑人民币",
-          "value": 4.23,
-          "unit": "",
-          "chg_pct": 0,
-          "alert": false
-        },
-        {
-          "code": "EUR_CNY",
-          "name": "欧元兑人民币",
-          "value": 7.4327,
-          "unit": "",
-          "chg_pct": 0,
-          "alert": false
-        }
-      ],
-      "missing": [],
-      "created_at": "2026-11-01T06:53:04.646Z",
-      "read": false,
-      "starred": false
-    },
-    {
-      "entry_id": "policy_daily-202611011453",
-      "run_id": "run-202611011453",
-      "task_id": "policy_daily",
-      "level": "routine",
-      "status": "skipped",
-      "title": "政策快讯：数据源待接入（可接 Coze 工作流或政策 RSS）",
-      "summary": "",
-      "indicators": [],
-      "missing": [],
-      "created_at": "2026-11-01T06:53:04.646Z",
       "read": false,
       "starred": false
     }
